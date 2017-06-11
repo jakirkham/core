@@ -17,7 +17,7 @@ namespace boost {
 
 // get_pointer(p) extracts a ->* capable pointer from p
 
-template<class T> T * get_pointer(T * p)
+inline template<class T> T * get_pointer(T * p)
 {
     return p;
 }
